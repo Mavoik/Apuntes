@@ -19,3 +19,29 @@ o
 ```bash
 $> git add -A
 ```
+
+Puedes ver como está el stage con el comando:
+```bash
+$> git status
+```
+
+Una vez tengamos los cambios que queremos almacenar ejecutamos el comando:
+```bash
+$> git commit -m "mensaje"
+```
+y te genera el snapshot. Que puedes ver con el comando:
+
+```bash
+$> git log
+```
+
+Para sincronizar la rama local con la rama remota usamos 2 comandos: <br>
+Este comando empuja los commits locales a la nube.
+
+```bash
+$> git push
+```
+Este comando trae los commits remotos a tu local.
+```bash
+$> git pull
+```
